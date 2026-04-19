@@ -66,11 +66,11 @@ export default function LandingPage({ onLogin }: { onLogin: (username: string) =
   };
 
   return (
-    <div className="min-h-screen bg-[#F9F5F0] text-black font-sans selection:bg-[#FF99D6]">
+    <div className="min-h-screen bg-[#F9F5F0] text-black font-sans selection:bg-[#FF99D6] overflow-x-hidden w-full">
       {/* Navbar */}
       <nav className="fixed w-full top-0 z-50 bg-[#F9F5F0] border-b-3 border-black p-3 flex justify-between items-center px-4 md:px-8">
         {/* Logo - Start */}
-        <div className="text-xl md:text-2xl font-black tracking-tighter uppercase cursor-pointer group flex gap-1 relative items-center">
+        <div className="text-lg md:text-2xl font-black tracking-tighter uppercase cursor-pointer group flex gap-1 relative items-center">
             <span className="transition-transform duration-300 group-hover:text-[#FF99D6] group-hover:-translate-y-1">Traders</span>
             <span className="transition-transform duration-300 group-hover:text-[#A984FF] group-hover:rotate-3 inline-block">Arena</span>
             <div className="absolute -bottom-1 left-0 w-0 h-[4px] bg-black transition-all duration-300 group-hover:w-full"></div>
