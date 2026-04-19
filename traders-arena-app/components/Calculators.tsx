@@ -1,4 +1,4 @@
-'use client';
+
 
 import React, { useState } from 'react';
 import { Calculator, X, Search, TrendingUp, DollarSign, Percent, ArrowDownUp, RefreshCw, BarChart3, LineChart, Target, ShieldAlert } from 'lucide-react';

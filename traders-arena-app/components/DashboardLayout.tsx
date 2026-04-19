@@ -1,4 +1,4 @@
-'use client';
+
 
 import React, { useState, useEffect } from 'react';
 import { LayoutDashboard, Calculator, BookOpen, Bot, MessageSquare, LogOut, User, Image as ImageIcon } from 'lucide-react';
