@@ -122,8 +122,10 @@ export default function LandingPage({ onLogin }: { onLogin: (username: string) =
         .animate-marquee {
           animation: marquee 20s linear infinite;
         }
-        .pause-on-hover:hover .animate-marquee {
-          animation-play-state: paused;
+        @media (hover: hover) and (pointer: fine) {
+          .pause-on-hover:hover .animate-marquee {
+            animation-play-state: paused;
+          }
         }
       `}</style>
         <section className="py-6 bg-white border-y-3 border-black overflow-x-hidden overflow-y-visible mb-8 md:mb-12 cursor-default pause-on-hover">
