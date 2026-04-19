@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #f9f5f0;
+  --color-primary-purple: #A984FF;
+  --color-primary-pink: #FF99D6;
+  --color-primary-peach: #FFB38E;
+  --color-accent-green: #A3E6B6;
+  --color-accent-blue: #C3EEFA;
+  --color-accent-yellow: #FCF49F;
+  --color-text-main: #111111;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Hard shadow utilities */
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+.neo-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+.neo-shadow-hover:hover {
+  box-shadow: 6px 6px 0px 0px #000000;
+  transform: translate(-2px, -2px);
+}
+.neo-shadow-active:active {
+  box-shadow: 2px 2px 0px 0px #000000;
+  transform: translate(2px, 2px);
+}
